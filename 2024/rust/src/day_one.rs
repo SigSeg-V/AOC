@@ -1,7 +1,8 @@
-/// Historian Hysteria
-/// Charlie Hutcheson 1/1/24
+// Historian Hysteria
+// Charlie Hutcheson 1/1/24
 
 pub const INPUT_STR: &str = include_str!("../resources/DayOne/input.txt");
+pub const EXAMPLE_STR: &str = include_str!("../resources/DayOne/example.txt");
 
 // collect input into two vectors
 fn collect_input(input: &str) -> [Vec<usize>; 2]{
@@ -46,7 +47,6 @@ pub fn part_two(input: &str) -> usize {
 #[cfg(test)]
 mod tests {
     use super::*;
-const EXAMPLE_STR: &str = include_str!("../resources/DayOne/example.txt");
 
     #[test]
     fn example() {

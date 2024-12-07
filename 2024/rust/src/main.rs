@@ -1,5 +1,6 @@
 mod day_one;
+mod day_two;
 
 fn main() {
-    println!("{}", day_one::part_two(day_one::INPUT_STR))
+    println!("{}", day_two::part_two(day_two::INPUT_STR))
 }
